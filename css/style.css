@@ -1,0 +1,58 @@
+header{
+    margin-bottom: 80px;
+}
+
+main h1{
+    text-align: center;
+}
+
+form{
+    margin-inline: auto;
+    max-width: 500px;
+}
+
+main p{
+    max-width: 500px;
+    margin-inline: auto;
+}
+
+.form-group-container{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.form-group label{
+    margin-bottom: 0.5rem;
+}
+
+.form-group input, .form-group textarea{
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group input:focus, .form-group textarea:focus{
+    outline: none;
+    border-color: #000;
+}
+
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.img-container img{
+    width: 200px;
+    height: auto;
+}
+
