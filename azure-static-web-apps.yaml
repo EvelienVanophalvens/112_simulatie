@@ -1,6 +1,6 @@
 # azure-static-web-apps.yaml
 
-name: pulsaid
+name: PulsaidEmergency
 build:
   publish: .
   output: /wwwroot
