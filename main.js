@@ -1,16 +1,17 @@
 import { initializeApp } from "firebase/app";
 import { getDatabase, ref, set  } from "firebase/database";
-
+requere('dotenv').config();
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCCJQ5CJeCgmW8V_J-fwrmb6axNVKexQ8A",
-    authDomain: "pulsaid-ffc8b.firebaseapp.com",
-    projectId: "pulsaid-ffc8b",
-    storageBucket: "pulsaid-ffc8b.appspot.com",
-    messagingSenderId: "702454418249",
-    appId: "1:702454418249:web:75add6e53c768712ba6898",
-    databaseURL: "https://pulsaid-ffc8b-default-rtdb.firebaseio.com/",
-  };
+  apiKey: process.env.FIREBASE_API_KEY,
+  authDomain: process.env.FIREBASE_AUTH_DOMAIN,
+  projectId: "pulsaid-ffc8b",
+  storageBucket: "pulsaid-ffc8b.appspot.com",
+  messagingSenderId: "702454418249",
+  appId: "1:702454418249:web:75add6e53c768712ba6898",
+  databaseURL: "https://pulsaid-ffc8b-default-rtdb.firebaseio.com/",
+};
+
 
 
 
