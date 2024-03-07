@@ -4,5 +4,5 @@ name: PulsaidEmergency
 build:
   publish: .
   output: /wwwroot
-  node_version: 14
+  node_version: 18.16.0
   run_script: build

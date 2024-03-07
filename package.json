@@ -1,5 +1,5 @@
 {
-  "name": "pulsaid",
+  "name": "pulsaidemergency",
   "version": "1.0.0",
   "scripts": {
     "build": "npm install",
