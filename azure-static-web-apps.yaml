@@ -1,6 +1,6 @@
 # azure-static-web-apps.yaml
 
-name: YourStaticWebAppName
+name: pulsaid
 build:
   publish: .
   output: /wwwroot
