@@ -1,0 +1,8 @@
+# azure-static-web-apps.yaml
+
+name: YourStaticWebAppName
+build:
+  publish: .
+  output: /wwwroot
+  node_version: 14
+  run_script: build
