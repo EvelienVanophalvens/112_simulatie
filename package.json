@@ -2,13 +2,9 @@
   "name": "pulsaidemergency",
   "version": "1.0.0",
   "scripts": {
-    "build": "npm install",
-    "start": "vite"
+    "build": "npm install"
   },
   "dependencies": {
     "firebase": "^10.8.1"
   },
-  "devDependencies": {
-    "vite": "^5.1.4"
-  }
 }
