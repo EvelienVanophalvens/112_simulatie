@@ -1,10 +1,9 @@
 import { initializeApp } from "firebase/app";
 import { getDatabase, ref, set  } from "firebase/database";
-requere('dotenv').config();
 
 const firebaseConfig = {
-  apiKey: process.env.FIREBASE_API_KEY,
-  authDomain: process.env.FIREBASE_AUTH_DOMAIN,
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
   projectId: "pulsaid-ffc8b",
   storageBucket: "pulsaid-ffc8b.appspot.com",
   messagingSenderId: "702454418249",
@@ -46,5 +45,7 @@ const firebaseConfig = {
         latitude: latitude,
         timestamp: timestamp,
         extraInfo: extraInfo
-    });
+    }).catch((error) => {
+      console.error("Error writing to Firebase: ", error);
+  });
   }
